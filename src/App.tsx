@@ -1,9 +1,17 @@
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Home from './pages/Home'
+import History from './pages/History'
 import './App.css'
 
 function App() {
 
   return (
-    <h1 className='text-red-500'>Olá mundo</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}> </Route>
+        <Route path='/history' element={<History/>}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
