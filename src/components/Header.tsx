@@ -1,8 +1,10 @@
+import logoRocketseat from "../assets/logoRocketseat.svg"
+
 const Header= ()=>{
   return(
-    <div>
-      <h1>header</h1>
-    </div>
+    <nav>
+      <img src={logoRocketseat} alt="Logo ignite" />
+    </nav>
   )
 }
 
