@@ -2,7 +2,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from './pages/Home'
 import History from './pages/History'
 import './App.css'
-import SharedLayout from './assets/layouts/SharedLayout'
+import SharedLayout from './layouts/SharedLayout'
 
 function App() {
 
