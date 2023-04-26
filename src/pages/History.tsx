@@ -1,8 +1,8 @@
+import TableHistory from "../components/TableHistory";
+
 const History = ()=>{
   return(
-    <div>
-    <h1>history</h1>
-  </div>
+    <TableHistory/>
   )
 }
 export default History;
