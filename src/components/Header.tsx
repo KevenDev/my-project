@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import logo from "../assets/logo.svg"
 import timer from "../assets/timer.svg"
 import iconList from "../assets/iconList.svg"
@@ -9,8 +10,8 @@ const Header= ()=>{
       <nav className="flex justify-between">
         <img src={logo} width={25} alt="Logo" />
         <div className="flex justify-center gap-4"> 
-          <img src={timer} width={20} alt="Timer" />
-          <img src={iconList} width={20} alt="list" />
+          <Link to='/' className="flex"> <img src={timer} width={20} alt="Timer" /> </Link>
+          <Link to='/history' className="flex"> <img src={iconList} width={20} alt="list" /> </Link>
          </div>
       </nav>
     </div>
